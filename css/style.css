@@ -552,6 +552,10 @@ h5 {
   top: 12rem;
 }
 
+.z-40 {
+  z-index: 40;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -589,6 +593,10 @@ h5 {
 
 .mb-8 {
   margin-bottom: 2rem;
+}
+
+.block {
+  display: block;
 }
 
 .flex {
@@ -868,6 +876,11 @@ h5 {
     background-image: url('../images/mobile/image-hero.jpg');
     background-position: center;
   }
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 .group:hover .group-hover\:scale-110 {
