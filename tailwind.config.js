@@ -9,7 +9,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ['Josefin', 'sans-serif'],
+        sans: ['Josefin Sans', 'sans-serif'],
         alata: ['Alata']
       }
     },
