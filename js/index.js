@@ -1,12 +1,14 @@
 // toggle hamburger icon button
 
-const btn = document.querySelector('#menu-btn');
-const menu = document.querySelector('#menu');
+document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.querySelector('#menu-btn');
+    const menu = document.querySelector('#menu');
 
-btn.addEventListener('click', navToggle);
+    btn.addEventListener('click', navToggle);
 
-function navToggle() {
-    btn.classList.toggle('open');
-    menu.classList.toggle('flex');
-    menu.classList.toggle('hidden');
-}
+    function navToggle() {
+        btn.classList.toggle('open');
+        menu.classList.toggle('flex');
+        menu.classList.toggle('hidden');
+    }
+})
